@@ -62,7 +62,7 @@ const PostList = () => {
   };
 
   return (
-    <div className="mt-6 space-y-6 max-w-4xl mx-auto">
+    <div className="mt-6 space-y-6 max-w-2xl mx-auto">
       {posts.map((post) => (
         <div
           key={post.id}

@@ -37,7 +37,7 @@ const PostForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-white shadow-xl rounded-xl p-5 space-y-4 border border-gray-200 max-w-4xl mx-auto transition-all duration-300 hover:shadow-2xl"
+      className="bg-white shadow-xl rounded-xl p-5 space-y-4 border border-gray-200 max-w-2xl mx-auto transition-all duration-300 hover:shadow-2xl"
     >
       <textarea
         value={text}
